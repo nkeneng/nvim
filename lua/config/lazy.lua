@@ -11,7 +11,9 @@ require("lazy").setup({
     {
       "LazyVim/LazyVim",
       import = "lazyvim.plugins",
-      opts = { colorscheme = "xcode" },
+      opts = {
+        colorscheme = "catppuccin",
+      },
     },
     -- import any extras modules here
     { import = "lazyvim.plugins.extras.lang.typescript" },
