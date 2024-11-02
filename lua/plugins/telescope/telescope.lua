@@ -12,8 +12,7 @@ local ts_select_dir_for_grep_global = function(prompt_bufnr)
 				local dir = entry_path:is_dir() and entry_path or entry_path:parent()
 				local absolute = dir:absolute()
 				vim.cmd('lcd ' .. absolute)
-				vim.notify("Absolute: " .. tostring(absolute), vim.log.levels.INFO)
-
+				-- vim.notify("Absolute: " .. tostring(absolute), vim.log.levels.INFO)
 				find_files({
 					cwd = absolute
 				})
@@ -127,7 +126,7 @@ return {
 				desc = "Find Plugin File",
 			},
 			{
-				"<leader><space>",
+				"<leader>ff",
 				ts_select_dir_for_grep_global
 			},
 

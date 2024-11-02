@@ -13,3 +13,7 @@ vim.api.nvim_create_autocmd("BufWinEnter", {
     end
   end,
 })
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = {"text", "markdown"},
+  command = "setlocal spell spelllang=de-DE",
+})

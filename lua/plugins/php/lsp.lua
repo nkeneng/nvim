@@ -1,12 +1,7 @@
 return {
   {
     "neovim/nvim-lspconfig",
-	-- config = function()
-	-- local builtin = require('telescope.builtin')
-	-- vim.keymap.set('n', '<leader>fs', builtin.lsp_document_symbols, {})
-	-- end,
     opts = {
-      -- @type lspconfig.options
       servers = {
         intelephense = {
           filetypes = { "php", "twig" },

@@ -10,4 +10,3 @@ vim.opt.completeopt = ""
 vim.opt.mouse = ""
 vim.opt.scrolloff = 15
 vim.opt.splitright = true
-

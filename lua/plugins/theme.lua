@@ -10,4 +10,10 @@ return {
   {
     "arzg/vim-colors-xcode",
   },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "catppuccin",
+    },
+  },
 }
