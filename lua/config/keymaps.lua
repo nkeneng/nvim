@@ -23,3 +23,19 @@ keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
 keymap.set("n", "ss", ":split<Return>", opts)
 keymap.set("n", "sv", ":vsplit<Return>", opts)
 
+
+-- -- Disable arrow keys
+-- keymap.set('n', '<Up>', '<Nop>', opts)
+-- keymap.set('n', '<Down>', '<Nop>', opts)
+-- keymap.set('n', '<Left>', '<Nop>', opts)
+-- keymap.set('n', '<Right>', '<Nop>', opts)
+--
+-- keymap.set('i', '<Up>', '<Nop>', opts)
+-- keymap.set('i', '<Down>', '<Nop>', opts)
+-- keymap.set('i', '<Left>', '<Nop>', opts)
+-- keymap.set('i', '<Right>', '<Nop>', opts)
+--
+-- keymap.set('v', '<Up>', '<Nop>', opts)
+-- keymap.set('v', '<Down>', '<Nop>', opts)
+-- keymap.set('v', '<Left>', '<Nop>', opts)
+-- keymap.set('v', '<Right>', '<Nop>', opts)
