@@ -15,6 +15,7 @@
 -- * add extra plugins
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
+if true then return {} end
 return {
   -- add gruvbox
   { "ellisonleao/gruvbox.nvim" },
