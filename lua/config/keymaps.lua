@@ -6,10 +6,9 @@
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
 
-local builtin_telescope = require('telescope.builtin')
 keymap.set("n", "<leader>fw", ":lua require('telescope').extensions.live_grep_args.live_grep_args()<CR>")
 keymap.set("n", "<leader>ho", "<cmd>lua vim.lsp.buf.hover()<CR>")
-keymap.set('n', '<leader>fs', builtin_telescope.lsp_document_symbols,{})
+keymap.set('n', '<leader>fs', function() require('telescope.builtin').lsp_document_symbols() end, {})
 
 -- Inspiration from Craftzdog's config
 
